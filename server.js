@@ -2,7 +2,7 @@
 var express = require("express");
 var exphbs = require("express-handlebars");
 // require all models
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 // initalize express
 var app = express();
 //static
